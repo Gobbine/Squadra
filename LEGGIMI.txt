@@ -1,0 +1,15 @@
+PUBBLICARE SU GITHUB PAGES
+
+1. Accedi a https://github.com e crea un nuovo repository (per esempio: presenze-squadra).
+2. Se usi GitHub Free, imposta il repository come Public.
+3. Apri il repository e seleziona Add file > Upload files.
+4. Carica index.html e .nojekyll contenuti in questa cartella. È importante che index.html sia nella cartella principale del repository, non dentro un'altra sottocartella.
+5. Premi Commit changes.
+6. Apri Settings > Pages.
+7. In Build and deployment, scegli Source: Deploy from a branch.
+8. In Branch seleziona main e cartella /(root), poi premi Save.
+9. Attendi alcuni minuti. Nella stessa pagina Settings > Pages apparirà il link del sito. Per un repository chiamato presenze-squadra, normalmente sarà https://NOMEUTENTE.github.io/presenze-squadra/.
+10. Apri il link e, se non vedi subito la pagina, ricarica oppure prova una finestra privata dopo qualche minuto.
+
+NOTA IMPORTANTE SUI DATI
+La pubblicazione rende la pagina raggiungibile online, ma non crea automaticamente un database condiviso. Se la pagina salva i dati nel browser (localStorage), ogni dispositivo/browser avrà i propri dati: per condividere le presenze in tempo reale tra allenatori serve collegare un database o un servizio backend.
